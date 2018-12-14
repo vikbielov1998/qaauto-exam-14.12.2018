@@ -1,7 +1,7 @@
 # qaauto-exam-14.12.2018
 .gitignore contains file that git should ignore (they will not change or will change on every run(target-directory));
 pom.xml contains all dependencies we need in our project;
-search-test.xml contains script with help of which we can run tests we want or with maven-builder
+search-test.xml contains script with help of which we can run tests we want
 src/test contains all our tests
 
 To run this project it is necessary to install jdk, browser (Google Chrome, Mozila Firefox), Intelij IDE
