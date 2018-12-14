@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="search-term-test">
+
+    <test name="search">
+        <parameter name="browserName" value="firefox"/>
+        <classes>
+            <class name="SearchTest">
+                <methods>
+                    <include name="searchTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
