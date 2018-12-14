@@ -4,7 +4,7 @@ pom.xml contains all dependencies we need in our project;
 search-test.xml contains script with help of which we can run tests we want;
 src/test contains all our tests;
 
-To run this project it is necessary to install jdk, browser (Google Chrome, Mozila Firefox), Intelij IDE;
+To run this project it is necessary to install jdk, browser (Google Chrome, Mozila Firefox), Intelij IDE (also it is needed to download all this files or install Jenkins);
 
-To run via command line it is necessary to install Maven Builder, than write next code to command line:
+To run via command line it is necessary to install and set up Maven Builder, than write next code to command line:
 mvn clear install.
